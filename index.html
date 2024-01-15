@@ -5,185 +5,94 @@
     <title>Angela Liu</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#top-container">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#profile">Profile</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact-me">Contact</a>
+    <div class="row">
+      <div class="column1">
+        <img class="avatar" src="images/profilesquare.jpg" alt="">
+        <h4>Angela Liu</h4>
+        <p>Master's Student</p>
+        <p>University of Maryland</p>
+        <p>aliu1237@umd.edu</p>
+      </div>
+      <div class="column2">
+        <h4>About Me</h4>
+        <p>
+          I am currently a 1st year Master's student at University of Maryland advised by Professor Ming Lin. My research interests include autonomous navigation, robotics, and artificial intelligence. For past projects, look at <a href="https://angelaliu.netlify.app/">Undergrad Personal Webpage</a>
+        </p>
+
+        <h4>Education</h4>
+        <p><b>M.S. in Computer Science</b>, Fall 2023 - Present</p>
+        <p>University of Maryland, College Park</p>
+        <p><b>B.S. in Computer Science, Minor in Statistics</b>, Fall 2020 - May 2023</p>
+        <p>University of Maryland, College Park</p>
+
+        <h4>Publications/Work</h4>
+        <ul>
+          <li>
+            <a href="pages/CSGO.pdf">Escaping Failure States without Experts in FPS Behavioral Cloning</a>
+            <p>Short workshop paper for my Independent Undergraduate Research Course</p>
+            <p><b>Angela Liu</b>, Laura Zheng, Ming Lin</p>
           </li>
         </ul>
-      </div>
-    </nav>
-    <div id="top-container">
-      <h1>Angela Liu</h1>
-      <h2>Computer Science Undergrad</h2>
-    </div>
-    <div id="middle-container">
-      <div id="profile">
-        <div class="row">
-            <div class="col language">
-              <img class="avatar" src="images/profile.jpg" alt="">
-            </div>
-            <div class="col language left-align">
-              <h2>About Me</h2>
-              <p>
-                I am currently a student at University of Maryland majoring in Computer Science with a Data Science track and minoring in Statistics. In spring 2023, I am planning to graduate with a B.S. in Computer Science and go on to pursue further research in graduate school. However, I am also interested in working at a company so I'm currently open to both full time positions and internships. I have a solid experience in Java programming with a Java SE 11 Developer Oracle Certificate but have also used Typescript and Python. My hobbies include art and video games.
-              </p>
-              <a href="pages/Resume.pdf" download>
-                <b>Download my CV</b>
-              </a>
-            </div>
-          </div>
-        
-        
-      </div>
-      <hr>
-      <div id="skills">
-        <h2>Skills</h2>
-        <p class="shrink">I'm flexible and motivated to stay on task, as well as a hardworking team player focused on boosting efficiency and performance through my experience in programming. I am currently learning a variety of topics in my computer science classes but also played around with web development and web design in my down time. My experienced languages are Java, Python, TypeScript, Javascript, HTML, and CSS but I am also familiar with Ocaml, Ruby, C, Rust, MATLAB, and SAS. Other technologies I have used include Git, Bootstrap, Figma, React, Angular, NodeJS, Docker, Kubernetes, Jest, Playwright, Jupyter, k6, Postman, PostgresQL, Jest, and Playwright. Below is a ranking of my technical skills.</p>
-        <br>
-        <div class="container">
-          <div class="row">
-            <div class="col language">
-              <p>HTML/CSS</p>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
-              </div>
-            </div>
-            <div class="col language">
-              <p>Java</p>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col language">
-              <p>TypeScript/JavaScript</p>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
-              </div>
-            </div>
-            <div class="col language">
-              <p>Python</p>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">65%</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <!-- <div class="skill-row">
-          <img class="art" src="images/web-design.png" alt="">
-          <h3>Art/Design</h3>
-          <p class="art-descr">Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
-        </div>
-        <div class="skill-row">
-          <img class="game" src="images/game-console.png" alt="">
-          <h3>Video Games</h3>
-          <p class="game-descr">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-        </div> -->
-        <div id="experience">
-          <h2>Experience</h2>
+        <h4>Ongoing Projects</h4>
+        <ul>
+          <li>
+            <p>Collaborating on a group VR driving project with Laura, Pranav, and other masters students. Aim of this project is to research the possibility of using human personalities to better predict driving behaviour. Current role focuses on gathering training data and compiling driving footage into usable video clips.</p>
+          </li>
+          <li>  
+            <a href="https://github.com/aL118/CS2?tab=readme-ov-file#training-cs2-agent-with-rl">Training CS2 Agent with RL</a>
+            <p>Currently working on a personal research project aiming to train a Counter Strike 2 (CS2) agent on how to play a game using reinforcement learning. Work serves as a continuation of my undergrad research to make it publish-ready.</p>
+          </li>
+        </ul>
+          <h4>Work Experience</h4>
           <p>Here is a list of my work/club experience and education.</p>
           <br>
           <ul class="timeline">
             <li>
               <a>Software Engineer Intern</a>
+              <a class="float-right">June 2023 - Aug 2023</a>
+              <br>
+              <a><b>ASRC Federal</b></a>
+              <p>Performanced a variety of tasks to help the SALMONRUN team on their projects using Java. Major accomplishments include researching and rewriting jflex code with more efficient regex expressions and less actions in global states, leading to 30% - 300% performance time reduction. Upgraded their command line parser to a better maintained technology by rewriting code to use Piccoli instead of JCommander.</p>
+            </li>
+            <li>
+              <a>Hack4Impact Tech Lead</a>
+              <a class="float-right">Feb 2023 - May 2023</a>
+              <br>
+              <a href="https://umd.hack4impact.org/"><b>Hack4Impact</b></a>
+              <p>Served as Tech Lead for River Runner project team 2023. Reviewed pull requests, wrote documentation, and held office hours for engineers. Implemented filter persistence and bug fixes for web application that used ASP.NET framework.</p>
+            </li>
+            <li>
+              <a>Software Engineer Intern</a>
               <a class="float-right">July 2022 - Aug 2022</a>
               <br>
               <a href="https://www.immuta.com/"><b>Immuta</b></a>
-              <p>Assisted audit team senior engineers.Implemented automated tests in TypeScript and added graphql generator, significantly easing the workload for documentation writer. Implemented and showcased an iframe prototype to the team to demonstrate how they can integrate their audit code into an existing application. More details in projects.</p>
+              <p>Assisted audit team senior engineers. Implemented automated tests in TypeScript and added graphql generator, significantly easing the workload for documentation writer. Implemented and showcased an iframe prototype to the team to demonstrate how they can integrate their audit code into an existing application. More details in projects.</p>
             </li>
             <li>
-              <a>Front-end Devloper/Designer</a>
-              <a class="float-right">Feb 2021 - Present</a>
+              <a>Front-end Developer / Web Designer</a>
+              <a class="float-right">Feb 2021 - Dec 2022</a>
               <br>
               <a href="https://umd.hack4impact.org/"><b>Hack4Impact</b></a>
               <p>Worked with team to create webpages as part of Hack4Impact College Park chapter. For 3 semesters, helped to design webpages by creating wireframes through Figma while collaborating with another designer. For one semester so far, worked as engineer to touch up on websites. Tasks consisted of creating new pages, rewriting queries, and fixing bugs.</p>
             </li>
-            <li>
-              <a>Bachelor Degree</a>
-              <a class="float-right">Aug 2020 - May 2023</a>
-              <br>
-              <b>University of Maryland, College Park</b>
-              <p>Plan to graduate with major in Computer Science, Data Science with minor in Statistics. Engineer and designer at Hack4Impact for 4 semesters. Worked as math tutor for one semester. Awarded Dean's List 2020 and Capital One Dean's Scholarship.</p>
-            </li>
-            <li>
-              <a>High School Diploma</a>
-              <a class="float-right">Aug 2016 - May 2020</a>
-              <br>
-              <b>Centennial High School</b>
-              <p>Graduated high school with national merit scholarship. Won 1st place at CodeQuest 2019.</p>
-            </li>
           </ul>
-        </div>
-      </div>
-      <hr>
-      <div id="projects">
-        <h2>Projects</h2>
-        <button class="btn" onclick="window.location.href='https://al118.github.io/';">Data Science Tutorial</button>
-        <button class="btn" onclick="window.location.href='https://github.com/aL118/Uno';">Uno Game</button>
-        <button class="btn" onclick="window.location.href='pages/TinDog/index.html';">TinDog</button>
-        <!-- <button class="btn" onclick="window.location.href='https://github.com/cekastner/CMSC434_Project';">Kitchen Kompanion</button> -->
-        <button class="btn" onclick="window.location.href='https://github.com/immuta/audit-prototypes/tree/main/META-339-module-iframe';">iFrame Prototype</button>
-        <button class="btn" onclick="window.location.href='pages/Neural Networks.html';">Stroke Predictions</button>
-        <button class="btn" onclick="window.location.href='https://umd.hack4impact.org/';">hack4impact-UMD</button>
-      </div>
-      <hr>
-      <div id="contact-me">
-        <h2>Get In Touch</h2>
-        <p class="split">Feel free to contact me.</p>
-        <a class="btn" href="mailto:angelaliu9805@gmail.com">CONTACT ME</a>
-      </div>
-    </div>
 
-    <div id="bottom-container">
-      <div class="container left-align">
-        <div class="row">
-          <div class="col">
-            <h4>See More</h4>
-            <br>
-            <a class="footer-link" href="https://www.linkedin.com/in/angela-liu-601025204"><img src="images/linkedin.png" style="width:50px"></a>
-            <a class="footer-link" href="https://github.com/aL118"><img src="images/github.png" style="width:50px"></a>
-          </div>
-          <div class="col">
-            <h4>Connect</h4>
-            <img src="images/pin.png" alt="" style="width:30px"><span>4119 Pemberton Ct., Ellicott City, MD 21043</span>
-            <br>
-            <img src="images/phone-call.png" alt="" style="width:30px"><span>(240)910-8994</span>
-            <br>
-            <img src="images/inbox.png" alt="" style="width:30px"><span>angelaliu9805@gmail.com</span>
-          </div>
-        </div>
+        <h4>Honors and Awards</h4>
+        <ul>
+          <li>Dean's List 2020-23</li>
+          <li>University Honors College</li>
+          <li>Capital One Bank Dean's Scholarship Fund</li>
+          <li>National Merit Scholarship, Fall 2020 - May 2023</li>
+        </ul>
+        <h4>Hobbies</h4>
+        <p>
+          In my free time, I enjoy playing tennis, drawing, listening to classical music, and taking walks around my neighborhood. I also love playing video games, especially modded Minecraft, and have created some of my own games from scratch.
+        </p>
       </div>
-      <br>
-      <p class="surname">Made by Angela Liu</p>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      
   </body>
 </html>
