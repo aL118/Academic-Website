@@ -216,3 +216,11 @@ ul.timeline > li:before {
   margin: 5px;
   display: inline-block;
 }
+
+footer{
+  text-align: center;
+  div{
+    color: gray;
+    font-size: 0.9em;
+  }
+}
